@@ -1,0 +1,45 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+/app/release/
+/app/debug/
+
+# Signing secrets — never commit
+*.jks
+*.keystore
+keystore.properties
+/keystore/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+/.idea/appInsightsSettings.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (store asset generator)
+__pycache__/
+*.pyc
